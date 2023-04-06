@@ -1,0 +1,48 @@
+body {
+	font-family: 'IBM Plex Mono', monospace;
+	background-color: rgb(20, 20, 20);
+	text-align: center;
+	color: white;
+	margin: 0;
+}
+
+#CenterElements {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+}
+
+#button1 {
+	display: inline-block;
+	padding: .70em 1em;
+	border: 0.1em solid #FFFFFF;
+	margin: 0 0.3em 0.3em 0;
+	border-radius: 0.20em;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-size: 14px;
+	text-align: center;
+	background-color: rgb(20, 20, 20);
+	transition: all 0.2s;
+	color: white;
+}
+
+#button1:hover {
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+#button1:active {
+	outline: 0!important;
+}
+
+a.SubtitleLink {
+	transition: all .2s;
+	color: rgb(200, 200, 200);
+	text-decoration: none;
+}
+
+a.SubtitleLink:hover {
+	color: rgb(255, 255, 255);
+}
